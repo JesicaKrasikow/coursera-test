@@ -1,0 +1,78 @@
+body {
+	background-color: #F0F2EB;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 120px;
+}
+
+/******NAVIGATION******/
+#header-nav {
+	background-color: #E1EDB9;
+	border-radius: 0;
+	border: 0;
+	}
+
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FF4242;
+}
+
+.navbar-default .navbar-toggle {
+ border-color: #FF4242;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #F0F2EB;
+}
+
+.navbar-brand h1 {
+	color: #FF4242;
+	font-size: 4em;
+}
+
+.row h2 {
+	padding-top: 1em;
+}
+
+#nav-list a {
+	font-size: 1.5em;
+	color: black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.navbar-brand {
+	height: 7em;
+}
+	
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 	.navbar-brand {
+	height: 7em;
+	}
+	
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand {
+	height: 6em;
+}
+.navbar-brand h1 {
+	font-size: 3em;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.navbar-brand h1 {
+	font-size: 2em;
+	}
+
+}
